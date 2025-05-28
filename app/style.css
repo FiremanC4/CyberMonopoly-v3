@@ -1,0 +1,981 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Inter:500,400,600");
+
+/* @font-face {
+    font-family: "Cybergame-Regular";
+    src: url('../files/Cybergame-Regular Italic.ttf') format('truetype');
+  } */
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  /* font-family: "Cybergame-Regular"; */
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  /* transform: scale(1.06) */
+  /* transform:scaleX(1.06); */
+}
+
+.main .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 3349px;
+  position: relative;
+}
+
+.main .first-part {
+  position: absolute;
+  width: 1440px;
+  height: 1025px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/bdd319feedf8fd013280e88055896619-1-1.svg);
+  /* background-size: 100% 100%; */
+}
+
+.main .overlap {
+  position: absolute;
+  width: 81px;
+  height: 60px;
+  top: 30px;
+  left: 69px;
+}
+
+.main .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 21px;
+  color: #000000;
+  font-size: 16px;
+  line-height: normal;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.main .dice-cube {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.main .central-block {
+  display: flex;
+  flex-direction: column;
+  width: 746px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  position: absolute;
+  top: 204px;
+  left: 347px;
+}
+
+.main .title {
+  position: relative;
+  width: 746px;
+  height: 343.32px;
+}
+
+.main .overlap-group {
+  position: relative;
+  width: 849px;
+  height: 446px;
+  top: -45px;
+  left: -51px;
+}
+
+.main .monopoly {
+  width: 849px;
+  height: 303px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main .cyber-punk {
+  position: absolute;
+  width: 608px;
+  height: 228px;
+  top: 218px;
+  left: 71px;
+}
+
+.main .p {
+  position: relative;
+  width: 699px;
+  height: 72px;
+  color: #ffffff;
+  font-size: 26px;
+  text-align: center;
+  line-height: 40px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.main .buttom {
+  display: flex;
+  width: 273px;
+  height: 81px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 30px 105px;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 4px 20px 3px #be329a66;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 31, 144, 1) 0%,
+    rgba(134, 18, 82, 1) 100%
+  );
+}
+
+.main .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -10.00px;
+  margin-bottom: -8.00px;
+  margin-left: -1.00px;
+  margin-right: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .view {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 125px;
+  position: absolute;
+  top: 48px;
+  left: 1093px;
+}
+
+.main .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .second-part {
+  position: absolute;
+  width: 1440px;
+  height: 1156px;
+  top: 1024px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/bdd319feedf8fd013280e88055896619-1-1.svg);
+  
+  /* background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/bdd319feedf8fd013280e88055896619-2.svg); */
+}
+
+.main .overlap-2 {
+  position: relative;
+  width: 1439px;
+  height: 1157px;
+  /* top: -1px; */
+  /* left: 1px; */
+}
+
+.main .img {
+  position: absolute;
+  width: 1439px;
+  height: 1156px;
+  /* top: 1px; */
+  /* left: 0; */
+}
+
+.main .text-wrapper-4 {
+  width: 748px;
+  height: 121px;
+  left: 351px;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 123px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.main .group {
+  position: absolute;
+  width: 1271px;
+  height: 849px;
+  top: 182px;
+  left: 90px;
+}
+
+.main .overlap-group-2 {
+  position: absolute;
+  width: 1275px;
+  height: 636px;
+  top: 119px;
+  left: 0;
+}
+
+.main .element-board-game-mockup {
+  position: absolute;
+  width: 1094px;
+  height: 542px;
+  top: 94px;
+  left: 82px;
+}
+
+.main .prison {
+  position: absolute;
+  width: 310px;
+  height: 81px;
+  top: 106px;
+  left: 0;
+}
+
+.main .text-wrapper-5 {
+  position: absolute;
+  width: 140px;
+  /* height: 20px; */
+  height: 35px;
+  top: -15px;
+  left: -15px;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 2px;
+}
+
+.main .text-wrapper-6 {
+  position: absolute;
+  width: 306px;
+  top: 35px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .public-fund {
+  position: absolute;
+  width: 304px;
+  height: 88px;
+  top: 492px;
+  left: 13px;
+}
+
+.main .text-wrapper-7 {
+  position: absolute;
+  width: 215px;
+  /* height: 21px; */
+  height: 40px;
+  top: -15px;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: 2px;
+}
+
+.main .text-wrapper-8 {
+  position: absolute;
+  width: 300px;
+  top: 36px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .chance {
+  position: absolute;
+  width: 304px;
+  height: 105px;
+  top: 509px;
+  left: 971px;
+}
+
+.main .text-wrapper-9 {
+  position: absolute;
+  width: 133px;
+  height: 46px;
+  top: 0;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-size: 50px;
+  line-height: 2px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.main .text-wrapper-10 {
+  top: 53px;
+  position: absolute;
+  width: 300px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .line {
+  width: 147px;
+  height: 1px;
+  top: 597px;
+  left: 588px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .line-2 {
+  width: 147px;
+  height: 1px;
+  top: 534px;
+  left: 343px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .line-3 {
+  width: 147px;
+  height: 1px;
+  top: 508px;
+  left: 794px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .go-to-prison {
+  position: absolute;
+  width: 276px;
+  height: 86px;
+  top: 118px;
+  left: 958px;
+}
+
+.main .text-wrapper-11 {
+  position: absolute;
+  width: 272px;
+  top: 36px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .line-4 {
+  width: 1px;
+  height: 150px;
+  top: 234px;
+  left: 1093px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .line-5 {
+  width: 1px;
+  height: 125px;
+  top: 217px;
+  left: 152px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .line-6 {
+  width: 3px;
+  height: 129px;
+  top: 0;
+  left: 663px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.main .start {
+  position: absolute;
+  width: 304px;
+  height: 87px;
+  top: 762px;
+  left: 701px;
+}
+
+.main .text-wrapper-12 {
+  position: absolute;
+  width: 103px;
+  /* height: 20px; */
+  height: 40px;
+  top: -15px;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-size: 50px;
+  line-height: 2px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.main .text-wrapper-13 {
+  top: 35px;
+  position: absolute;
+  width: 300px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .casino {
+  position: absolute;
+  width: 315px;
+  height: 89px;
+  top: 0;
+  left: 509px;
+}
+
+.main .text-wrapper-14 {
+  position: absolute;
+  width: 123px;
+  /* height: 23px; */
+  height: 35px;
+  top: -10px;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-size: 50px;
+  text-align: center;
+  line-height: 2px;
+  font-weight: 400;
+  color: #ffffff;
+  letter-spacing: 0;
+}
+
+.main .text-wrapper-15 {
+  position: absolute;
+  width: 308px;
+  top: 38px;
+  left: 3px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .third-part {
+  position: absolute;
+  width: 1440px;
+  height: 765px;
+  top: 2180px;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/bdd319feedf8fd013280e88055896619-1.svg);
+  /* background-size: 100% 100%; */
+}
+
+.main .group-2 {
+  position: absolute;
+  width: 1184px;
+  height: 106px;
+  top: 0;
+  left: 73px;
+}
+
+.main .colors {
+  position: absolute;
+  width: 560px;
+  height: 100px;
+  top: 3px;
+  left: 0;
+}
+
+.main .ellipse {
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(236, 31, 144, 1) 0%,
+    rgba(134, 18, 82, 1) 100%
+  );
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50px;
+}
+
+.main .ellipse-2 {
+  left: 115px;
+  background: linear-gradient(
+    180deg,
+    rgba(123, 62, 201, 1) 0%,
+    rgba(61, 30, 99, 1) 100%
+  );
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50px;
+}
+
+.main .ellipse-3 {
+  left: 230px;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 166, 211, 1) 0%,
+    rgba(149, 99, 125, 1) 100%
+  );
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50px;
+}
+
+.main .ellipse-4 {
+  left: 345px;
+  background: linear-gradient(
+    180deg,
+    rgba(68, 79, 178, 1) 0%,
+    rgba(29, 34, 76, 1) 100%
+  );
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50px;
+}
+
+.main .ellipse-5 {
+  left: 460px;
+  background: linear-gradient(
+    180deg,
+    rgba(106, 254, 253, 1) 0%,
+    rgba(63, 152, 151, 1) 100%
+  );
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  border-radius: 50px;
+}
+
+.main .color {
+  width: 568px;
+  height: 106px;
+  left: 620px;
+  position: absolute;
+  top: 0;
+}
+
+.main .text-wrapper-16 {
+  position: absolute;
+  width: 564px;
+  top: 82px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-17 {
+  width: 161px;
+  height: 67px;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 77px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 73px;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+.main .navigation {
+  position: absolute;
+  width: 1215px;
+  height: 31px;
+  top: 184px;
+  left: 125px;
+}
+
+.main .nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main .text-wrapper-18 {
+  font-weight: 600;
+  font-size: 20px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .line-7 {
+  position: absolute;
+  width: 60px;
+  height: 2px;
+  top: 29px;
+  left: 0;
+}
+
+.main .concept {
+  position: absolute;
+  width: 851px;
+  height: 210px;
+  top: 275px;
+  left: 75px;
+}
+
+.main .text-wrapper-20 {
+  position: absolute;
+  width: 240px;
+  top: 0;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-21 {
+  position: absolute;
+  width: 847px;
+  top: 108px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .goal {
+  position: absolute;
+  width: 853px;
+  height: 141px;
+  top: 530px;
+  left: 73px;
+}
+
+.main .text-wrapper-22 {
+  position: absolute;
+  /* width: 192px; */
+  width: 120px;
+  top: 10px   ;
+  left: 0;
+  /* font-family: "Cybergame-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 77px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-23 {
+  position: absolute;
+  width: 849px;
+  top: 85px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.main .footer {
+  position: absolute;
+  width: 1440px;
+  height: 404px;
+  top: 2945px;
+  left: 0;
+  background-color: #000000;
+}
+
+.main .overlap-3 {
+  position: relative;
+  width: 1438px;
+  height: 404px;
+  left: 2px;
+  background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/bdd319feedf8fd013280e88055896619-2.svg);
+  /* background-size: 100% 100%; */
+}
+
+.main .group-3 {
+  position: absolute;
+  width: 794px;
+  height: 45px;
+  top: 329px;
+  left: 322px;
+}
+
+.main .text-wrapper-24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .text-wrapper-25 {
+  position: absolute;
+  top: 30px;
+  left: 324px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #d9d9d9;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.main .logo {
+  position: absolute;
+  width: 262px;
+  height: 78px;
+  top: 123px;
+  left: 176px;
+}
+
+.main .group-4 {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 0;
+  left: 0;
+  background-image: url(https://c.animaapp.com/mb8auknn9fM1k2/img/dice-cube-1-1.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.main .overlap-group-wrapper {
+  position: absolute;
+  width: 152px;
+  height: 69px;
+  top: 5px;
+  left: 110px;
+}
+
+.main .overlap-group-3 {
+  position: relative;
+  width: 255px;
+  height: 172px;
+  top: -45px;
+  left: -51px;
+}
+
+.main .monopoly-2 {
+  width: 255px;
+  height: 143px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main .cyber-punk-2 {
+  position: absolute;
+  width: 206px;
+  height: 128px;
+  top: 44px;
+  left: 14px;
+}
+
+.main .group-5 {
+  position: absolute;
+  width: 303px;
+  height: 209px;
+  top: 57px;
+  left: 941px;
+}
+
+.main .gameplay {
+  width: 202px;
+  height: 209px;
+  left: 103px;
+  position: absolute;
+  top: 0;
+}
+
+.main .text-wrapper-26 {
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+}
+
+.main .navigation-2 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 30px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+}
+
+.main .nav-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main .text-wrapper-27 {
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Inter", Helvetica;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .text-wrapper-28 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.main .frame {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.main .board {
+  width: 60px;
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.main .frame-2 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  position: absolute;
+  top: 54px;
+  left: 0;
+}
