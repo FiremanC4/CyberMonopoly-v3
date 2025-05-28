@@ -1,0 +1,26 @@
+// const Button = styled('button', {
+//   flex: 1,
+//   maxHeight:"81px",
+//   height:"81px",
+//   padding: '0.75rem 1rem',
+//   backgroundColor: 'black',
+//   fontSize:"32px",
+//   borderRadius: '10px',
+//   color: 'white',
+//   fontWeight: '600',
+//   cursor: 'pointer',
+//   transition: 'all 0.5s ease',
+//   backgroundSize: '200% 200%',
+//   backgroundPosition: 'left center',
+//   // backgroundImage:"linear-gradient(90deg, #8B4B8C, #6B3A6C)",
+
+//   '&:disabled': {
+//     opacity: 0.5,
+//     cursor: 'not-allowed',
+//     '&:hover': {
+//       backgroundColor: 'transparent',
+//       color: 'white',
+//       borderColor: '#4b5563',
+//     },
+//   },
+// });

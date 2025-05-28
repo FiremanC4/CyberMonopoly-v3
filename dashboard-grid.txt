@@ -1,0 +1,104 @@
+"use client";
+
+import Image from "next/image";
+
+export default function DashGrid() {
+  return (
+    <main
+      style={{
+        position: "absolute",
+        zIndex: 20,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        width: "100%",
+        minHeight: "100%",
+        padding: "50px 10vw",
+        backgroundColor: "transparent",
+        gap: "20px",
+        boxSizing: "border-box",
+      }}
+    >
+      <div
+        style={{
+          position: "relative",
+          width: "60vw",
+          aspectRatio: "1 / 1",
+        }}
+      >
+        <Image
+          src="/slogan-modals/Board%20(1).svg"
+          alt="Board"
+          layout="fill"
+          objectFit="contain"
+        />
+
+        <div
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            display: "grid",
+            gridTemplateColumns: "2fr repeat(9, 1fr) 2fr",
+            gridTemplateRows: "2fr repeat(9, 1fr) 2fr",
+            pointerEvents: "none",
+          }}
+        >
+          <div style={{ gridArea: "1 / 1 / 2 / 2", border: "1px solid rgba(255,255,255,0.2)" }}>Prison</div>
+          <div style={{ gridArea: "1 / 11 / 2 / 12", border: "1px solid rgba(255,255,255,0.2)" }}>Go to Prison</div>
+          <div style={{ gridArea: "11 / 1 / 12 / 2", border: "1px solid rgba(255,255,255,0.2)" }}>Start</div>
+          <div style={{ gridArea: "11 / 11 / 12 / 12", border: "1px solid rgba(255,255,255,0.2)" }}>Casino</div>
+
+          {Array.from({ length: 9 }, (_, i) => (
+            <div
+              key={`top-${i}`}
+              style={{
+                gridArea: `1 / ${i + 2} / 2 / ${i + 3}`,
+                border: "1px solid rgba(255,255,255,0.2)",
+              }}
+            />
+          ))}
+
+          {Array.from({ length: 9 }, (_, i) => (
+            <div
+              key={`right-${i}`}
+              style={{
+                gridArea: `${i + 2} / 11 / ${i + 3} / 12`,
+                border: "1px solid rgba(255,255,255,0.2)",
+              }}
+            />
+          ))}
+
+          {Array.from({ length: 9 }, (_, i) => (
+            <div
+              key={`bottom-${i}`}
+              style={{
+                gridArea: `11 / ${i + 2} / 12 / ${i + 3}`,
+                border: "1px solid rgba(255,255,255,0.2)",
+              }}
+            />
+          ))}
+
+          {Array.from({ length: 9 }, (_, i) => (
+            <div
+              key={`left-${i}`}
+              style={{
+                gridArea: `${i + 2} / 1 / ${i + 3} / 2`,
+                border: "1px solid rgba(255,255,255,0.2)",
+              }}
+            />
+          ))}
+
+          <div
+            style={{
+              gridArea: "2 / 2 / 11 / 11",
+              border: "1px solid rgba(255,255,255,0.2)",
+            }}
+          />
+        </div>
+      </div>
+    </main>
+  );
+}
