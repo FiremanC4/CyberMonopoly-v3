@@ -20,7 +20,6 @@ export default function Dash() {
         right: rect.right,
         bottom: rect.bottom,
       })
-      alert(`Top: ${rect.top}, Left: ${rect.left}, Right: ${rect.right}, Bottom: ${rect.bottom}`)
     }
   }, [setDashBoardCords])
 

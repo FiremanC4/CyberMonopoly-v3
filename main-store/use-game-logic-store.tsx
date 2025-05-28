@@ -43,14 +43,11 @@ export const useGameLogicStore = create<IUseGameLogicStore>((set, get) => ({
 
     const cardIndex = getCardIndexByClick(event.clientX, isRightToLeft);
     if (cardIndex !== null) {
-      alert(`Card index clicked: ${cardIndex}`);
     } else {
-      alert("Clicked outside of cards.");
     }
 
     if (updatedClicks.length === 2) {
       const distance = get().calculateDistance();
-      alert(`Distance between clicks: ${distance?.toFixed(2)} pixels`);
       get().resetClicks();
     }
   },

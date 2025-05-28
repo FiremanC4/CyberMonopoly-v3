@@ -305,7 +305,7 @@ export function GamePanel() {
       {/* END GAME BUTTON */}
       <Link href="/">
         <button
-          onClick={() => alert("Game ended! Thanks for playing!")}
+          onClick={() =>{}}
           style={{
             background: "rgba(236, 31, 144, 0.4)",
             color: "white",
